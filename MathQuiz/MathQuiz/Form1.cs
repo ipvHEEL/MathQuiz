@@ -100,7 +100,7 @@ namespace MathQuiz
             else
             {
                 timer1.Stop();
-                timeLabel.Text = "Коти убежали";
+                timeLabel.Text = "Время вышло";
                 MessageBox.Show("Вы не успели вовремя", "Попробуй ещё раз");
                 sum.Value = addend1 + addend2;
                 difference.Value = minuend - subtrahend;
